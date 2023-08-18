@@ -1,0 +1,43 @@
+.list-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.list-container .repo-item {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 10px;
+  background-color: rgb(155, 125, 69);
+  margin: 10px;
+  height: fit-content;
+  width: 300px;
+  height: 200px;
+  text-decoration: none;
+  text-overflow: ellipsis;
+}
+
+.list-container .repo-item div {
+  padding-bottom: 10px;
+}
+
+.list-container .repo-item .repo-name > a {
+  font-weight: bold;
+  text-decoration: none;
+}
+.list-container .repo-item .repo-name > a:hover {
+  text-decoration: underline;
+}
+
+.view-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.view-more p {
+  cursor: pointer;
+  color: rgb(61, 62, 139);
+  font-weight: bold;
+}

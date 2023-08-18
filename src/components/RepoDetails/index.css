@@ -1,0 +1,34 @@
+.repo-details-container {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.repo-details {
+  background-color: rgb(80, 61, 150);
+  color: white;
+  padding: 10px 20px 20px 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  max-width: 70%;
+
+  border-radius: 10px;
+}
+
+.repo-details > div {
+  padding: 10px;
+}
+
+.other-details {
+  display: flex;
+  width: 100%;
+}
+.other-details > div {
+  display: flex;
+  padding-right: 20px;
+}
